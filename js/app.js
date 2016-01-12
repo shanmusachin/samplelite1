@@ -1,6 +1,6 @@
 'use strict';
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js', { scope: '/sample/' }).then(function(reg) {
+  navigator.serviceWorker.register('sw.js', { scope: '/samplelite1/' }).then(function(reg) {
     // registration worked
     console.log('Registration succeeded. Scope is ' + reg.scope);
   }).catch(function(error) {
